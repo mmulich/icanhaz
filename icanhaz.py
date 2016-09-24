@@ -5,7 +5,7 @@ def haz():
     print("i can has")
 
 def main(argv=0):
-    has()
+    haz()
     return 0
 
 
