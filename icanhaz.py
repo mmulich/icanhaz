@@ -8,7 +8,7 @@ def haz(**kw):
 
 def main(argv=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('noun')
+    parser.add_argument('noun', nargs='?', default='gitburger')
     args = parser.parse_args(argv)
     haz(**vars(args))
     return 0
