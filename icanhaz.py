@@ -4,11 +4,12 @@ import argparse
 
 
 def haz(**kw):
-    print('i can haz {noun}'.format(**kw))
+    print('{pronoun} can haz {noun}'.format(**kw))
 
 def main(argv=None):
     parser = argparse.ArgumentParser()
     parser.add_argument('noun', nargs='?', default='gitflow')
+    parser.add_argument('pronoun', nargs='?', default='we')
     args = parser.parse_args(argv)
     haz(**vars(args))
     return 0
