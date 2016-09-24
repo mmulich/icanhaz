@@ -4,7 +4,7 @@ import argparse
 
 
 def haz(**kw):
-    print('{pronoun} can haz {noun}'.format(**kw))
+    print('{pronoun} can haz {noun}?'.format(**kw))
 
 def main(argv=None):
     parser = argparse.ArgumentParser()
