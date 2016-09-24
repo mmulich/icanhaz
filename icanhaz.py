@@ -2,7 +2,7 @@
 from __future__ import print_function
 
 def haz():
-    print("i can has gitburger")
+    print("i can haz gitburger")
 
 def main(argv=0):
     haz()
