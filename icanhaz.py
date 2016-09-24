@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
+from __future__ import print_function
+
+def haz():
+    print("i can has")
 
 def main(argv=0):
+    has()
     return 0
 
 
