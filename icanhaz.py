@@ -4,7 +4,7 @@ import argparse
 
 
 def haz(**kw):
-    print('i can has {noun}'.format(**kw))
+    print('i can haz {noun}'.format(**kw))
 
 def main(argv=None):
     parser = argparse.ArgumentParser()
